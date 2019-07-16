@@ -54,6 +54,8 @@ group :development do
 
   gem 'activeadmin'
 
+  gem "wysiwyg-rails"
+  gem "font-awesome-rails"
   
   gem 'devise'
   gem 'annotate'

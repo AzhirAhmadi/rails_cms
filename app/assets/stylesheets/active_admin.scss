@@ -11,6 +11,16 @@
 @import "active_admin/mixins";
 @import "active_admin/base";
 
+@import "plugins/font_awesome.css";
+@import "plugins/froala_editor.css";
+@import "plugins/froala_style.css";
+@import "plugins/code_view.css";
+@import "plugins/image_manager.css";
+@import "plugins/image.css";
+@import "plugins/table.css";
+@import "plugins/video.css";
+
+@import "main";
 // Overriding any non-variable SASS must be done after the fact.
 // For example, to change the default status-tag color:
 //

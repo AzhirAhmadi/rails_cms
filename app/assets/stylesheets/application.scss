@@ -1,1 +1,14 @@
-@import "active_admin"
+/*
+*= require plugins/font_awesome.css
+*= require plugins/froala_editor.css
+*= require plugins/froala_style.css
+*= require plugins/code_view.css
+*= require plugins/image_manager.css
+*= require plugins/image.css
+*= require plugins/table.css
+*= require plugins/video.css
+*/
+
+@import "active_admin";
+@import "main";
+
