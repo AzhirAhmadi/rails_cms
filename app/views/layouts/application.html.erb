@@ -9,13 +9,17 @@
   </head>
   <body>
     <%= render "partials/navbar"%>
+    <%= render "partials/blocks/jumbotron"%>
     <main role="main">
       <div class="container">
         <%= render "partials/alert"%>
+        <%= render "partials/blocks/block"%>
         <%= yield %>
         <%= render "partials/footer"%>
       </div>
       <!-- /container -->
     </main>
+
+
   </body>
 </html>
