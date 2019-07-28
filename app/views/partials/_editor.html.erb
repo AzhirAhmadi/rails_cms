@@ -1,0 +1,5 @@
+
+<%controller_name=params[:controller].split("/")[1].gsub(/[s]$/, '')%>
+<script>
+  new FroalaEditor('textarea#<%= controller_name%>_body')
+</script>

@@ -1,14 +1,12 @@
-/*
-*= require plugins/font_awesome.css
-*= require plugins/froala_editor.css
-*= require plugins/froala_style.css
-*= require plugins/code_view.css
-*= require plugins/image_manager.css
-*= require plugins/image.css
-*= require plugins/table.css
-*= require plugins/video.css
-*/
+@import "plugins/bootstrap.css";
+// @import "require plugins/font_awesome.css";
+// @import "require plugins/froala_editor.css";
+// @import "require plugins/froala_style.css";
+// @import "require plugins/code_view.css";
+// @import "require plugins/image_manager.css";
+// @import "require plugins/image.css";
+// @import "require plugins/table.css";
+// @import "require plugins/video.css";
 
-@import "active_admin";
 @import "main";
 

@@ -1,0 +1,6 @@
+<footer>
+    <p>
+        Copyright &copy; 2019, RailsCMS
+        <% if params[:controller].split("/")[0] != "admin" then%> | <a href="<%= admin_root_path%>">Admin </a><%end%>
+    </p>
+</footer>

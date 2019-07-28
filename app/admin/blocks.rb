@@ -20,6 +20,7 @@ index do
     column :created_at, :sortable => :created_at
     column :order
     actions
+    column "Published", :is_published
 
 end
 
@@ -27,7 +28,8 @@ form do |f|
     f.inputs "Details" do
         f.input :title, :label => "Title"
         f.input :show_title, :label => "Show Title"
-        render "partials/block_editor"
+        f.input :body, :label => "Body"
+        render "partials/editor"
         f.input :position, :label => "Position", :as => :select, :collection => [["Jumbotron","jumbotron"], ["Block","block"]]
         f.input :display, :label => "Display", :as => :select, :collection => [["All pages","all"], ["Homepage Only","home"], ["All but Home","nohome"]]
         f.input :order, :label => "Order"

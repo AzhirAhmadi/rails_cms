@@ -4,6 +4,7 @@
 #
 #  id           :bigint           not null, primary key
 #  body         :text(65535)
+#  featured     :boolean
 #  is_published :boolean
 #  menu_display :boolean
 #  order        :integer

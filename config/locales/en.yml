@@ -31,3 +31,9 @@
 
 en:
   hello: "Hello world"
+  active_admin:
+    resources:
+      page: # Registered resource
+        new_model: 'Create' # new action item
+        edit_model: 'Update' # edit action item
+        delete_model: 'Delete' # delete action item

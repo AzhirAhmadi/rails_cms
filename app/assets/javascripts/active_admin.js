@@ -1,7 +1,8 @@
 //= require active_admin/base
 
-
+//= require plugins/jQuery
 //= require plugins/bootstrap
+
 //= require plugins/codemirror.min.js
 //= require plugins/xml.min.js
 //= require plugins/froala_editor.min.js
