@@ -1,0 +1,27 @@
+<%if @fuck_ruby.exists?%>
+  <% @fuck_ruby.each_slice(3) do |blocks_s3|%>
+    <div class="row">
+        <%blocks_s3.each do |block|%>
+            <%if params[:controller] == "home"%>
+                <%if block.display == "home" || block.display == "all"%>
+                    <div class="col-md-4">
+                        <%if block.show_title==true%>
+                            <h1 class="display-3"><%= block.title %></h1>
+                        <%end%>
+                        <p><%=raw block.body %></p>
+                    </div>
+                <%end%>
+            <%else%>
+                <%if block.display != "home"%>
+                    <div class="col-md-4">
+                        <%if block.show_title==true%>
+                            <h1 class="display-3"><%= block.title %></h1>
+                        <%end%>
+                        <p><%=raw block.body %></p>
+                    </div>
+                <% end%>
+            <%end%>
+        <%end%>
+    </div>
+  <%end%>
+<%end%>
